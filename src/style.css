@@ -54,6 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
+  --fontSize-8: 3.586rem;
   --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
@@ -255,7 +256,7 @@ a:focus {
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-8);
   margin: 0;
 }
 
@@ -300,6 +301,10 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+}
+
+.bio-paragraph {
+  margin-top: var(--spacing-2);
 }
 
 .blog-post header h1 {

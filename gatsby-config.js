@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Anish Krishnan's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Anish Krishnan`,
+      summary: `, an aspiring product enthusiast, with pinch of humour and sarcasm in every sentence I talk.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Anish Krishnan | Personal blog.`,
+    siteUrl: `https://anishkrishnan.in/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `troll__bro`,
     },
   },
   plugins: [
@@ -112,13 +112,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Anish Krishnan's Blog`,
+        short_name: `Anish Krishnan`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
