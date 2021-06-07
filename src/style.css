@@ -125,6 +125,8 @@ h1 {
 }
 
 h2 {
+  font-weight: var(--fontWeight-black);
+  font-family: var(--font-body);
   font-size: var(--fontSize-5);
 }
 
@@ -299,12 +301,13 @@ a:focus {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  margin-top: var(--spacing-1);
+  min-width: 60px;
   border-radius: 100%;
 }
 
 .bio-paragraph {
-  margin-top: var(--spacing-2);
+  margin-top: var(--spacing-0);
 }
 
 .blog-post header h1 {
