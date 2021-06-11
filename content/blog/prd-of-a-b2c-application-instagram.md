@@ -1,5 +1,5 @@
 ---
-title: PRD OF A B2C APPLICATION - Instagram
+title: PRD of an B2C Application - A study on Instagram
 date: 2021-06-11T00:00:00-07:00
 description: This is a sample hypothetical PRD document for an B2C Application. The
   sample application for our hypothesis is Instagram. Let's go read through the doc
