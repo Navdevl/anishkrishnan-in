@@ -13,3 +13,4 @@ fields:
   label: description
 pages:
 - content/blog/demo.md
+- content/blog/prd-of-a-b2c-application-instagram.md
