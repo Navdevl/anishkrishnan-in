@@ -9,9 +9,10 @@
   --maxWidth-xl: 36rem;
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
+  --maxWidth-35xl: 52rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -32,6 +33,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
+  --fontFamily-serif2: arial, sans-serif;;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
@@ -166,7 +168,7 @@ p {
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
   padding: var(--spacing-0);
 }
 
@@ -219,15 +221,26 @@ blockquote > ol {
   list-style-position: inside;
 }
 
-table {
+/*table {
   width: 100%;
-  margin-bottom: var(--spacing-8);
-  border-collapse: collapse;
+  margin-bottom: var(--spacing-12);
   border-spacing: 0.25rem;
 }
 
 table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+}
+*/
+table {
+  font-family: var(--fontFamily-serif2);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 /* Link */

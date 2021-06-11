@@ -6,9 +6,7 @@ description: This is a sample hypothetical PRD document for an B2C Application. 
   now and judge for good.
 
 ---
-# **PRD OF A B2C APPLICATION** - **INSTAGRAM**
-
-Problem Statement:
+## Problem Statement:
 
 People have trouble with the below mentioned features. Goal is to add new or update existing features to solve this problem.
 
@@ -38,7 +36,7 @@ As a user:
 
 ## Why build this feature?
 
-    We are building this feature to:
+We are building this feature to:
 
 * Save time for users when searching for messages.
 * Notify users whose stories have been taken screenshots.
@@ -62,7 +60,7 @@ KR3 - Increase NPS from 49 to 54.
 
 KR4 - Decrease in churn rate by 6-8%
 
-# Product Requirements (The What)
+## Product Requirements (The What)
 
 <table>
 <tr>
@@ -137,7 +135,7 @@ KR4 - Decrease in churn rate by 6-8%
 </tr>
 </table>
 
-Non-Product Requirements:
+## Non-Product Requirements:
 
 <table>
 <tr>
@@ -178,7 +176,7 @@ Non-Product Requirements:
 </tr>
 </table>
 
-# Assumptions :
+## Assumptions :
 
 * Screenshots - Whenever a user tries to take a screenshot of a person’s stories, it will send the “You took a screenshot” notification to the concerned user. This will increase everyone’s privacy.
 * Search option - Including a search option in the chat box will reduce the user's time to some extent, when the person tries to search any old chats/messages.
@@ -187,33 +185,31 @@ Non-Product Requirements:
 * Link Sharing - When sharing a link (say a YouTube link) in story, users won’t have the clickable link. Including these options help users to visit the page by clicking on the link without any hurdles.
 * Emoji addition - Currently only heart (❤️) option is available, meaning - liking the posts. Additional emojis like claps (👏), fire (🔥) can be included so that users will be interested to find the response they receive for their posts/pictures.
 
-Statistics:
+## Statistics:
 
 * Total no. of users - 1.1 Billion
 * Daily Active Users (DAU) - 500 Million
 
-Roll Out Plan:
+## Roll Out Plan:
 
-M1 :
+### M1 :
 
 * Alpha on 10th Aug
 * Beta on 20th Aug provided there are no major bugs or concerns in Alpha
 * Will launch on Prod as an experiment on 25th Aug
 
-M2
+### M2
 
 * Alpha on 7th Sep
 * Beta on 14th Sep provided there are no major bugs or concerns in Alpha
 * Will launch on Prod after we have results on M1 experiment results
 
-M3
+### M3
 
 * Alpha on 5th Oct
 * Beta on 14th Oct provided there are no major bugs or concerns in Alpha
 * Prod on 24th Oct
 
-Conclusion:
-
-.
+## Conclusion:
 
 Based on the user’s pain points and the survey findings, the above upgrades will be implemented, to improve the overall user experience.
