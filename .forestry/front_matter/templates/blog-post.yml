@@ -12,5 +12,4 @@ fields:
   name: description
   label: description
 pages:
-- content/blog/case-study-for-rending-office-space.md
 - content/blog/prd-of-a-b2c-application-instagram.md
