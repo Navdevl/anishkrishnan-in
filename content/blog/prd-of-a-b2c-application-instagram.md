@@ -84,106 +84,7 @@ KR4 - Decrease in churn rate by 6-8%
 </td>
 </tr>
 
-<tr>
-
-<td>
-
-</td>Add "show post to close friends" feature similar to "story to close friends"
-
-<td>Must have
-
-</td>
-
-<td>M1
-
-</td>
-
-<td>Yet to Start
-
-</td>
-
-</tr>
-<tr>
-<td>Introduce browse by music/song option in reels..
-</td>
-<td>Must have
-</td>
-<td>M1
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Allow users to copy the comments from the comment section.
-</td>
-<td>Must have
-</td>
-<td>M1
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Hide the number of likes in posts
-</td>
-<td>Should have
-</td>
-<td>M2
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Show the posts shared inside the chat option. (In media section)
-</td>
-<td>Must have
-</td>
-<td>M2
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Grant users to share clickable links in stories.
-</td>
-<td>Should have
-</td>
-<td>M2
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>When a user takes the screenshot of the story, the notification should go to the other user.
-</td>
-<td>Should have
-</td>
-<td>M3
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Insert a time slider in reels option, to navigate back and forward.
-</td>
-<td>Must have
-</td>
-<td>M3
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Include other emojis to react in posts.
-</td>
-<td>Should have
-</td>
-<td>M3
-</td>
-<td>Yet to Start
-</td>
-</tr>
-</table>
+<td>Introduce browse by music/song option in reels.. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Allow users to copy the comments from the comment section. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Hide the number of likes in posts </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Show the posts shared inside the chat option. (In media section) </td> <td>Must have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Grant users to share clickable links in stories. </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>When a user takes the screenshot of the story, the notification should go to the other user. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Insert a time slider in reels option, to navigate back and forward. </td> <td>Must have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Include other emojis to react in posts. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> </table>
 
 ## Non-Product Requirements:
 
@@ -229,7 +130,7 @@ KR4 - Decrease in churn rate by 6-8%
 ## Assumptions :
 
 * Search option - Including a search option in the chat box will reduce the user's time to some extent, when the person tries to search any old chats/messages.
-* Posts for close friends - This will show the posts only to their close friends and not to others. 
+* Posts for close friends - This will show the posts only to their close friends and not to others.
 * Browse by song/music - In reels, we can browse the song/music just like stories, so that users will be able to choose.
 * Copying comments - In many cases, people tend to find the comment section useful in various posts. Inclusion of this feature will be beneficial for the users to just click on the comment and use it as per their needs.
 * Navigation slider - In Reels, 15 or 30 seconds is the time limit. Adding this slider will save some time if they don’t really like to watch full video.
