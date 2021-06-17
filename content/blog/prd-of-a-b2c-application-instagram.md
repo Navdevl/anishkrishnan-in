@@ -12,7 +12,7 @@ People have trouble with the below mentioned features. Goal is to add new or upd
 
 ***
 
-_This spec discusses more about **(WHY, WHAT, WHEN)** needs to be built._
+_This spec discusses more about **(WHY**, **WHAT, WHEN**) needs to be built._
 
 _It does not discuss the technical implementation **(HOW)**_
 
