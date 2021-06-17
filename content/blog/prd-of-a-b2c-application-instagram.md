@@ -62,27 +62,7 @@ KR4 - Decrease in churn rate by 6-8%
 
 # Product Requirements (The What)
 
-<table>
-<tr>
-<td><strong>Requirement</strong>
-</td>
-<td><strong>Priority</strong>
-</td>
-<td><strong>Phase/Milestone</strong>
-</td>
-<td><strong>Status</strong>
-</td>
-</tr>
-<tr>
-<td>Create a search option inside the chat box, to find messages.
-</td>
-<td>Must have
-</td>
-<td>M1
-</td>
-<td>Yet to Start
-</td>
-</tr>
+<table> <tr> <td><strong>Requirement</strong> </td> <td><strong>Priority</strong> </td> <td><strong>Phase/Milestone</strong> </td> <td><strong>Status</strong> </td> </tr> <tr> <td>Create a search option inside the chat box, to find messages. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr><tr> <td> Adding "show posts only to close friends" similar to close friend story feature. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr>
 
 <td>Introduce browse by music/song option in reels.. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Allow users to copy the comments from the comment section. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Hide the number of likes in posts </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Show the posts shared inside the chat option. (In media section) </td> <td>Must have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Grant users to share clickable links in stories. </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>When a user takes the screenshot of the story, the notification should go to the other user. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Insert a time slider in reels option, to navigate back and forward. </td> <td>Must have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Include other emojis to react in posts. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> </table>
 
