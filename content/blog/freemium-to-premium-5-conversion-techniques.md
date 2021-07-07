@@ -9,8 +9,6 @@ description: This blog shows you 5 different ways to convert your Freemium custo
 
 One of the exceptional words in the English language is “free.” You can use it over anything and find the response you receive. The main motive of “freemium” Is to shape a loyal app fan-base. Charging your customers right from the installation does not go well in most of the times. Ask this question to yourself “Will I buy an app, paying upfront without knowing the features available in it”. And the answer is a “Big nooo”.
 
-![](/uploads/pattern_freemium.jpg)
-
 Now, let us see the ways, we can convert the free users to paid subscribers.
 
 **_1. Encouraging your freemium users:_**
