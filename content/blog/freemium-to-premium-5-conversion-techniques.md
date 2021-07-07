@@ -5,17 +5,17 @@ description: This blog shows you 5 different ways to convert your Freemium custo
   to Premium customers.
 
 ---
-####                        **Freemium to Premium**
+#### **Freemium to Premium**
 
 One of the exceptional words in the English language is “free.” You can use it over anything and find the response you receive. The main motive of “freemium” Is to shape a loyal app fan-base. Charging your customers right from the installation does not go well in most of the times. Ask this question to yourself “Will I buy an app, paying upfront without knowing the features available in it”. And the answer is a “Big nooo”.
 
 Now, let us see the ways, we can convert the free users to paid subscribers.
 
-**1. Encouraging your freemium users:**
+**_1. Encouraging your freemium users:_**
 
 Start of with a neat user onboarding email, that talks about your software. Explain the benefits that the users will have when the upgrade is being done. However, don’t make it as a heart of the welcome mail. Add the customer support emails, help pages, FAQs etc. for a better user experience. No one would like to use a freemium service that pounds them with emails to upgrade. But listing the benefits of upgrade, gradually can lead to a more organic development.
 
-**2. Creating a sense of rush:**
+**_2. Creating a sense of rush:_**
 
 The first thing that comes to your mind, when you want to create a sense of urgency Is “Your trial will expire in 3 days”. And that’s definitely not the effective way.
 
@@ -28,19 +28,19 @@ Instead use:
 
 For instance, Linkedin’s notification of “5 people have looked at your profile today”, creates a different kind of urgency. Precisely, your free users should know they will have a bigger picture when they are upgraded to a premium user.
 
-**3. Price for removing ads:**
+**_3. Price for removing ads:_**
 
 Most of us don’t like advertisements. When you are in the middle of some interesting music or a gameplay, you won’t feel good. This interruption is such a pain, I feel you. The idea of getting rid of them is pleasing.
 
 So, it is worth offering an ad-free version in premium upgrade. Online music app “Spotify” is one of the famous examples, which removes all the ads permanently when you are doing the premium upgrade.
 
-**4. Tempt them:**
+**_4. Tempt them:_**
 
 Show your customers the features that they are missing out. Popular apps like “YouCam Perfect”, displays all the premium features in the free version, but doesn’t give you the access to use it. You can either grey out the features or highlight them stating “available on premium upgrades”.
 
 Users will be frequently reminded of what they are missing out. This way, you are teasing your customers and increasing their curiosity to make an upgrade to the premium plan, in order to access all the features.
 
-**5. Keep it simple:**
+**_5. Keep it simple:_**
 
 Upgrading from free version to the premium version should be made easy. If the user has to do a lot of things to sign up to a premium upgrade, they might get pissed and probably abandon their purchase itself.
 
