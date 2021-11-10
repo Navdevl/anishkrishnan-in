@@ -1,150 +1,61 @@
 ---
 title: Why non-tech users struggle with logical operators and how can that be solved?
-date: 2021-06-11T00:00:00.000-07:00
-description: This is a sample hypothetical PRD document for an B2C Application. The
-  sample application for our hypothesis is Instagram. Let's go read through the doc
-  now and judge for good.
+date: 2021-11-10T04:30:00-08:00
+description: |-
+  Many of us would have come across logical operators in one way or the other. Commonly used operators are these 3 - AND/OR/NOT
+
+  All these operators are used to perform a specific function. Now you may ask whats the big deal here? Let me tell you.
 
 ---
 ## Problem Statement:
 
-People have trouble with the below mentioned features. Goal is to add new or update existing features to solve this problem.
+Many of us would have come across logical operators in one way or the other. Commonly used operators are these 3 - AND/OR/NOT
+
+All these operators are used to perform a specific function. Now you may ask whats the big deal here? Let me tell you.
 
 ***
 
-_This spec discusses more about **(WHY**, **WHAT, WHEN**) needs to be built._
+## Where AND/OR is frequently used?
 
-_It does not discuss the technical implementation **(HOW)**_
+There are several CDPs, CRMs, Marketing Automation and other tools in the global market, makes use of a feature called Segmentation which will group the users.
 
-***
+  
+## What is Segmentation?
 
-## Disclaimer:
+Segmentation is nothing but a process of grouping a set of users from the total list of data. The list will then be used when sending marketing campaigns and other purposes. In these cases, conditions are mandatory for grouping the users based on the requirement.
 
-All the below mentioned assumptions are based on my research and analysis.
+And many times either the marketers or any non-tech users find it difficult in segmenting part using the traditional AND/OR.
 
-## Goals:
+## Why AND/OR is confusing for some?
 
-To add key features to Instagram in the upcoming version.
+Let us take a simple real time example,
 
-## User Stories :
+- Condition using **AND** - Need to retrieve customers whose "Age is 25" AND "Age is 35" from a list. 
+	Actual result – Will be invalid. (As the same person cannot have 2 different ages)
+	But, non-tech users might assume - Customers whose “Age is 25” and also Customers whose “Age is 35" will be displayed. (Which is wrong)
 
-As a user:
+- Condition using **OR** - "City is Bangalore" OR "Age is 40".
+	Actual result – Condition should retrieve Number of records having “City as Bangalore”, along with the customers whose age is 40. It will display the records which satisfies both the conditions.
+	But, non-tech users might assume - Either the record with "City is Bangalore" or the "Age is 40", any one will be displayed. (Which is wrong)
 
-* I want a find button in the chat section, so that I can search for a specific message.
-* I want to browse by music in reels, so that I can use the song for doing reels.
-* I want a copy option in the comment section, in order to copy the comment in posts.
+_Now it is quite evident that, grammatical AND/OR is different from logical AND/OR. So what can be done in order to avoid the above confusion?_
 
-## Why build this feature?
+Replacing **AND/OR/NOT with Match ALL, ANY, NONE** helps to a great extent. Introducing terms which are more conversational, reduces the complexity for the users who use it. This would be beneficial especially for the non-tech users, who are finding it difficult in understanding the logic behind AND/OR/NOT.
 
-We are building this feature to:
+In simpler terms,
 
-* Save time for users when searching for messages.
-* Help users use all songs in reels.
-* Make users copy the comments..
+- Match **ALL** is going to fetch you the details when all the conditions match.
 
-## User Interviews: (Based on personal survey):
+- Match **ANY** is going to fetch you the details when any of the conditions gets matched.
 
-* Interacted with 12 -15 regular users of instagram to find the likes and dislikes..
-* 75% of potential users responded positively overall.
-* Ability to search messages and copy comments seems to be one of the most awaited features.
+Taking the same example as above,
 
-## OKR: (Objective & Key Results)
+- Condition using Match **ALL -** Need to retrieve customers whose "Age is 25", "Age is 35" from a list.
+	Result – This will retrieve all the customers from the list whose age is 25 and 35.
 
-O - To improve the product performance in the next update.
+- Condition using Match **ANY** - Need to retrieve customers "City is Bangalore", "Age is 40".
+	Result – This will retrieve the users whose “City is Bangalore” or whose “Age is 40”.
 
-KR1 - Increase of 5-7% in user engagement. .
+## Conclusion
 
-KR2 - Improving retention rate to 10%
-
-KR3 - Increase NPS from 49 to 54.
-
-KR4 - Decrease in churn rate by 6-8%
-
-# Product Requirements (The What)
-
-<table> <tr> <td><strong>Requirement</strong> </td> <td><strong>Priority</strong> </td> <td><strong>Phase/Milestone</strong> </td> <td><strong>Status</strong> </td> </tr> <tr> <td>Create a search option inside the chat box, to find messages. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr><tr> <td> Adding "show posts only to close friends" similar to close friend story feature. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr>
-
-<td>Introduce browse by music/song option in reels.. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Allow users to copy the comments from the comment section. </td> <td>Must have </td> <td>M1 </td> <td>Yet to Start </td> </tr> <tr> <td>Hide the number of likes in posts </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Show the posts shared inside the chat option. (In media section) </td> <td>Must have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>Grant users to share clickable links in stories. </td> <td>Should have </td> <td>M2 </td> <td>Yet to Start </td> </tr> <tr> <td>When a user takes the screenshot of the story, the notification should go to the other user. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Insert a time slider in reels option, to navigate back and forward. </td> <td>Must have </td> <td>M3 </td> <td>Yet to Start </td> </tr> <tr> <td>Include other emojis to react in posts. </td> <td>Should have </td> <td>M3 </td> <td>Yet to Start </td> </tr> </table>
-
-## Non-Product Requirements:
-
-<table>
-<tr>
-<td><strong>Requirement</strong>
-</td>
-<td><strong>Priority</strong>
-</td>
-<td><strong>Phase/Milestone</strong>
-</td>
-<td><strong>Team</strong>
-</td>
-<td><strong>Status</strong>
-</td>
-</tr>
-<tr>
-<td>Marketing: Update Instagram Blog page on the new features
-</td>
-<td>Must Have
-</td>
-<td>Post M3
-</td>
-<td>Marketing
-</td>
-<td>Yet to Start
-</td>
-</tr>
-<tr>
-<td>Marketing: Announce feature to the world through our social media accounts
-</td>
-<td>Must Have
-</td>
-<td>Post M3
-</td>
-<td>Marketing
-</td>
-<td>Yet to Start
-</td>
-</tr>
-</table>
-
-## Assumptions :
-
-* Search option - Including a search option in the chat box will reduce the user's time to some extent, when the person tries to search any old chats/messages.
-* Posts for close friends - This will show the posts only to their close friends and not to others.
-* Browse by song/music - In reels, we can browse the song/music just like stories, so that users will be able to choose.
-* Copying comments - In many cases, people tend to find the comment section useful in various posts. Inclusion of this feature will be beneficial for the users to just click on the comment and use it as per their needs.
-* Navigation slider - In Reels, 15 or 30 seconds is the time limit. Adding this slider will save some time if they don’t really like to watch full video.
-* Link Sharing - When sharing a link (say a YouTube link) in story, users won’t have the clickable link. Including these options help users to visit the page by clicking on the link without any hurdles.
-* Emoji addition - Currently only heart (❤️) option is available, meaning - liking the posts. Additional emojis like claps (👏), fire (🔥) can be included so that users will be interested to find the response they receive for their posts/pictures.
-* Hiding likes - This feature will hide the total no. of likes for all the posts. The hatred and personal insecurity will get reduced when the numbers are not shown.
-* Display of posts in media - This will show the posts shared by 2 persons in the media section.
-* Screenshots - Whenever a user tries to take a screenshot of a person’s stories, it will send the “You took a screenshot” notification to the concerned user. This will increase everyone’s privacy.
-
-## Statistics:
-
-* Total no. of users - 1.1 Billion
-* Daily Active Users (DAU) - 500 Million
-
-## Roll Out Plan:
-
-### M1 :
-
-* Alpha on 10th Aug
-* Beta on 20th Aug provided there are no major bugs or concerns in Alpha
-* Will launch on Prod as an experiment on 25th Aug
-
-### M2
-
-* Alpha on 7th Sep
-* Beta on 14th Sep provided there are no major bugs or concerns in Alpha
-* Will launch on Prod after we have results on M1 experiment results
-
-### M3
-
-* Alpha on 5th Oct
-* Beta on 14th Oct provided there are no major bugs or concerns in Alpha
-* Prod on 24th Oct
-
-## Conclusion:
-
-Based on the user’s pain points and the survey findings, the above upgrades will be implemented, to improve the overall user experience.
+The advancement of technology and its tools is massive in today’s world. We cannot expect a non-tech user to think from a techie’s perspective. So, it’s always better to design a module that not only satisfies all the desired functionalities, most importantly that can be understood by both types of users.
