@@ -1,6 +1,6 @@
 ---
 title: Why non-tech users struggle with logical operators and how can that be solved?
-date: 2021-11-10T04:30:00-08:00
+date: 2021-11-09T04:30:00-08:00
 description: |-
   Many of us would have come across logical operators in one way or the other. Commonly used operators are these 3 - AND/OR/NOT
 
